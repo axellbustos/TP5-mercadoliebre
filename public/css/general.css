@@ -1,0 +1,71 @@
+*{
+--Amarillo: #EAC926;
+--Azul: #03264C;
+--Celeste: #1259c3;
+--Grisoscuro: #666;
+--Grisclaro: #ebebeb;
+--Verde: #39b54a;
+
+--Cuerposdetexto:12px;
+--Titulares:24px;
+--Precios:18px;
+--Descuentos:16px;
+--Descripciones:16px;
+}
+body{
+    background-color: #EAC926;
+    font-family:roboto;  
+}
+.body-header-menu{
+    text-align: left;
+    
+}
+p{
+    font-size: 16px;
+}
+.cuerposdetexto{
+    font-size: var(--Cuerposdetexto);
+}
+.precios{
+    font-size: var(--Precios);
+}
+.descuentos{
+    font-size: var(--Descuentos);
+}
+.descripciones{
+    font-size: var(--Descripciones);
+}
+.titulares{
+    font-size: var(--Titulares);
+}
+.body-header-cuotas{
+    text-align: center;
+}
+.body-header-burger-menu{
+    background-color:var(--Celeste) ;
+    color: #ebebeb;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 43%;
+}
+.main-section-article-img{
+    width: 100%;
+}
+/*footer*/
+.footer{
+    background-color: #ebebeb;
+}
+.footer-section{
+    text-align: center;
+    padding: 10px;
+}
+.footer-section-copyright{
+    font-size: var(--Descripciones);
+}
+#footer-img{
+    color: #1259c3;
+    font-size: 30px;
+    
+}
