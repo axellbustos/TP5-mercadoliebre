@@ -1,0 +1,78 @@
+/*header*/
+.body-header-menu{
+    text-align: left;
+    
+}
+.body-header-cuotas{
+    text-align: center;
+}
+.body-header-menu{
+    display: none;
+}
+.body-header-burger-menu{
+    background-color:var(--Celeste) ;
+    color: #ebebeb;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 43%;
+}
+/*main*/
+.main{
+    text-align: center;
+    background-color: var(--Grisclaro);
+}
+.main-section-article{
+    background-color: #fff;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+.main-section-article-img{
+    width: 100%;
+    height: 100%;
+}
+.main-section-article-caja{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+}
+#logo-envio{
+    color:var(--Verde);
+    border:solid 1px #39b54a;
+    border-radius: 50%;
+    padding: 5px;
+}
+/*footer*/
+.footer{
+    background-color: #ebebeb;
+}
+.footer-section{
+    text-align: center;
+    padding: 10px;
+}
+.footer-section-copyright{
+    font-size: var(--Descripciones);
+}
+#footer-img{
+    color: #1259c3;
+    font-size: 30px;
+}
+/*media queries*/
+
+@media(min-width:361px){
+    .main-section-article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .body-header-menu{
+        display:inline-block;
+    }
+    .body-header-burger-menu{
+        display: none;
+    }
+    .descripciones{
+        display:inline-block;
+    }
+}
