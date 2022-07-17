@@ -1,13 +1,21 @@
 /*header*/
+.body-header{
+    margin-left: 5%;
+    width: 90%;
+}
 .body-header-menu{
     text-align: left;
-    
+    display: none;
+}
+.body-header-menu ul{
+    padding: 0;
+}
+.body-header-menu a{
+    text-decoration: none;
+    color: black;
 }
 .body-header-cuotas{
     text-align: center;
-}
-.body-header-menu{
-    display: none;
 }
 .body-header-burger-menu{
     background-color:var(--Celeste) ;
@@ -22,6 +30,7 @@
 .main{
     text-align: center;
     background-color: var(--Grisclaro);
+    padding-bottom: 10px;
 }
 .main-section-article{
     background-color: #fff;
@@ -48,6 +57,7 @@
 /*footer*/
 .footer{
     background-color: #ebebeb;
+    padding: 5%;
 }
 .footer-section{
     text-align: center;
@@ -55,6 +65,7 @@
 }
 .footer-section-copyright{
     font-size: var(--Descripciones);
+    text-align: left;
 }
 #footer-img{
     color: #1259c3;
@@ -68,6 +79,7 @@
     }
     .body-header-menu{
         display:inline-block;
+
     }
     .body-header-burger-menu{
         display: none;
@@ -75,4 +87,4 @@
     .descripciones{
         display:inline-block;
     }
-}
+} 

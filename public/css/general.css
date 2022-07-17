@@ -14,7 +14,7 @@
 }
 body{
     background-color: #EAC926;
-    font-family:roboto;  
+    font-family:"roboto";  
     margin: 0;
 }
 p{
@@ -39,6 +39,6 @@ p{
 .titulares{
     font-size: var(--Titulares);
     text-align: left;
-    margin-left: 5%;
+    margin-left: 5%; 
 }
 
