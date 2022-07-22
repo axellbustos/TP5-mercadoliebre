@@ -12,6 +12,9 @@
 --Descuentos:16px;
 --Descripciones:16px;
 }
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #EAC926;
     font-family:"roboto";  
@@ -26,11 +29,13 @@ p{
 .precios{
     font-size: var(--Precios);
     margin: 0;
+    width: 30%;
 }
 .descuentos{
     font-size: var(--Descuentos);
     color: var(--Verde);
     margin: 0;
+    width: 70%;
 }
 .descripciones{
     font-size: var(--Descripciones);
@@ -41,4 +46,3 @@ p{
     text-align: left;
     margin-left: 5%; 
 }
-
