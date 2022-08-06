@@ -37,57 +37,17 @@
         
     </header>
     <main class="main">
-        <section class="main-section-banner">
-            <img src="/images/img-home-banner.jpg" alt="">
+        <section class="main-section">
+            <form action="/login" method="post" >
+                <div class="form-box">
+                    <input type="text" name="username" placeholder="Nombre de usuari@">
+                </div>
+                <div class="form-box">
+                    <input type="password" name="password" placeholder="Contrasena">
+                </div>
+                <button class="enviar" type="submit">Enviar</button>
+            </form>
         </section>
-        <form action="/register" method="post" >
-            <div class="form-box">
-                <input type="text" name="nombre" placeholder="Nombre y apellido">
-                <small class="text-error">El nombre debe tener minimo 4 caracteres</small>
-            </div>
-            <div class="form-box">
-                <input type="text" name="username" placeholder="Nombre de usuari@">
-                <small class="text-error">Por favor elija un nombre de usuario</small>
-            </div>
-            <div class="form-box">
-                <input type="email" name="email" placeholder="E-mail">
-                <small class="text-error">El email es obligatorio</small>
-            </div>
-            <label for="date">Fecha de nacimiento</label>
-            <div class="form-box">
-                <input type="date" name="date" placeholder="Fecha de nacimiento">
-                <small class="text-error">Debe ser mayor de edad</small>
-            </div>
-            <div class="form-box">
-                <input type="text" name="domicilio" placeholder="Domicilio">
-            </div>
-            <label for="perfildeusuario">Perfil de usuario</label>
-            <div class="perfil">
-                <input id="selector" type="radio" name="perfilusuario" value="comprador">Comprador
-                <input id="selector" type="radio" name="perfilusuario" value="vendedor">Vendedor
-            </div>
-            <label for="categorias">Intereses</label>
-            <div class="intereses">
-                <input id="selector2" type="checkbox" name="categorias" value="Electro">Electro</input>
-                <input id="selector2" type="checkbox" name="categorias" value="Moda">Moda</input>
-                <input id="selector2" type="checkbox" name="categorias" value="Hogar">Hogar</input>
-                <input id="selector2" type="checkbox" name="categorias" value="Jugueteria">Jugueteria</input>
-                <input id="selecto2r" type="checkbox" name="categorias" value="Vidasana">Vida sana</input>
-            </div>
-            <div class="form-box">
-                <input type="file" name="foto" placeholder="Foto de usuario">
-            </div>
-            <div class="form-box">
-                <input type="password" name="password" placeholder="Contrasena">
-                <small class="text-error">La contrasena debe contener minimo 8 caracteres</small>
-            </div>
-            <div class="form-box">
-                <input type="password" name="" placeholder="Confirmar contrasena">
-                <small class="text-error">Las contrasenas no coinciden</small>
-            </div>
-            <button class="enviar" type="submit">Enviar</button>
-            <button class="borrar" type="reset">Borrar</button>
-        </form>
     </main>
     <footer class="footer">
         <section class="footer-section">

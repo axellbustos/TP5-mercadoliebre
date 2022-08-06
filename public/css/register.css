@@ -3,25 +3,35 @@
     flex-direction: column;
     align-items: center;
 }
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0 200px 0;
+}
 .main form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:var(--Grisclaro);
-    width:250px;
+    width:70%;
     padding:10px;
     gap: 15px;
+}
+.form-box{
+    width: 100%;
 }
 .main form label{
     width: 100%;
     text-align: start;
     font-size: 14px;
 }
-.main form input{
+.form-box input{
     width: 100%;
     border:none;
-    border-radius:7% ;
+    border-radius:5px ;
     padding: 5px;
     text-align: start;
 }
@@ -35,8 +45,29 @@
 }
 .intereses{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 #text{
     width: 80%;
+}
+.text-error{
+    width: 100%;
+    color: red;
+    text-align: start;
+    font-size: 10px;
+}
+.enviar{
+    background-color:var(--Celeste);
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+}
+.borrar{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid ;
+    border-radius: 5px;
 }
