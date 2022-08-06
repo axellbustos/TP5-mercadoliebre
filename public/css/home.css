@@ -57,6 +57,10 @@
     font-size: 30px;
     border-radius: 10px;
 }
+.show{
+    display: block;
+    width: 100%
+}
 /*main*/
 .main{
     text-align: center;
