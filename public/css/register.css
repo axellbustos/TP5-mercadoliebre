@@ -27,7 +27,9 @@
     width: 100%;
     text-align: start;
     font-size: 14px;
-    
+}
+.label-titulo{
+    font-weight: bold;
 }
 .form-box input{
     width: 100%;
