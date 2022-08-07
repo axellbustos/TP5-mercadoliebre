@@ -39,7 +39,9 @@ p{
 }
 .descripciones{
     font-size: var(--Descripciones);
-    display: none;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
 }
 .titulares{
     font-size: var(--Titulares);
